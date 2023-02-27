@@ -1,0 +1,12 @@
+{
+    "name": "projmon-api",
+    "image": "node:19",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "wix.vscode-import-cost"
+            ]
+        }
+    }
+}
