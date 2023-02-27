@@ -1,6 +1,6 @@
 # Builds nextjs app and copies it to Caddy server using npm
 
-FROM node:12.18.3-alpine3.12 AS builder
+FROM node:19-alpine AS builder
 
 WORKDIR /app
 
